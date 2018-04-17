@@ -1,0 +1,29 @@
+{
+  "name": "udacity-portfolio-project",
+  "version": "1.0.0",
+  "description": "This is the Portfolio Site that is built in the Udacity Front-End Nanodegree Program.",
+  "main": "",
+  "repository": "git@github.com:Asjas/udacity-portfolio-project.git",
+  "author": "Asjas <asjas@outlook.com>",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch"
+  },
+  "dependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-livereload": "^3.8.1",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "static-server": "^2.2.1"
+  }
+}
