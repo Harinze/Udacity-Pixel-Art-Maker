@@ -22,7 +22,8 @@ h2 {
 }
 
 h2:first-of-type {
-  margin-top: 0.5em;
+  margin-top: .5em;
+  margin-bottom: .5em;
 }
 
 table,
@@ -52,4 +53,13 @@ input[type="number"] {
   font-size: 1.6rem;
   padding: 5px;
   width: 6em;
+}
+
+input[type="submit"] {
+  padding: 5px;
+}
+
+#colorPicker {
+  width: 100px;
+  height: 35px;
 }
